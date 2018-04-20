@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "react": "latest",
+    "react-serialize": "github:pravdomil/react-serialize"
+  }
+}
