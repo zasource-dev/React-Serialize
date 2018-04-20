@@ -44,7 +44,7 @@ See [CodeSandbox](https://codesandbox.io/embed/github/pravdomil/react-serialize/
 
 ## API
 
-See [src/index.js](src/index.js).
+See [src/index.js](src/index.js#L1).
 
 ## Donate
 
