@@ -26,7 +26,7 @@ console.log("output", output)
 
 ## API
 
-See [index.js](src/index.js)
+See [index.js](src/index.js).
 
 ## Donate
 [By buying a beer](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BCL2X3AFQBAP2&item_name=react-serialize%20Beer).
