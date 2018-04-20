@@ -10,7 +10,7 @@
   "scripts": {
     "build": "babel src -d lib",
     "watch": "babel src -d lib -w",
-    "prepublish": "npm run build"
+    "prepare": "npm run build"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0-beta.44",
