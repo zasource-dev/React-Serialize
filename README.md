@@ -47,4 +47,5 @@ See [CodeSandbox example](https://codesandbox.io/embed/github/pravdomil/react-se
 See [src/index.js](src/index.js).
 
 ## Donate
+
 [By buying a beer](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BCL2X3AFQBAP2&item_name=react-serialize%20Beer).
