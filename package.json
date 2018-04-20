@@ -1,0 +1,7 @@
+{
+  "name": "react-serialize",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "react": "^14.0.0"
+  }
+}
