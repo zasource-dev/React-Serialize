@@ -26,9 +26,9 @@ export function serialize(element) {
  * Deserialize JSON string to React element
  *
  * @param {string|object} data
- * @param {object} options
- * @param {object} options.components
- * @param {function} options.reviver
+ * @param {object?} options
+ * @param {object?} options.components
+ * @param {function?} options.reviver
  * @returns {ReactNode}
  */
 export function deserialize(data, options) {
