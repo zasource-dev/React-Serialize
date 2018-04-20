@@ -38,9 +38,9 @@ deserialize({
 npm i pravdomil/react-serialize
 ```
 
-## Usage
+## Example
 
-See [CodeSandbox example](https://codesandbox.io/embed/github/pravdomil/react-serialize/tree/master/example?expanddevtools=1).
+See [CodeSandbox](https://codesandbox.io/embed/github/pravdomil/react-serialize/tree/master/example?expanddevtools=1).
 
 ## API
 
