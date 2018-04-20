@@ -1,6 +1,37 @@
 <h1 align="center">React-Serialize</h1>
 <p align="center">Serialize and deserialize React components to JSON</p>
 
+<table><tr><td>
+
+```js
+serialize(
+  <div>
+    <h1 align="center">
+      <blink>Hello</blink>
+    </h1>
+  </div>
+)
+```
+
+</td><td>⇄</td><td>
+
+```js
+deserialize({
+  type: "div",
+  props: {
+    children: {
+      type: "h1",
+      props: {
+        align: "center",
+        children: { type: "blink", props: { children: "Hello" } }
+      }
+    }
+  }
+})
+```
+
+</td></tr></table>
+
 ## Install
 
 ```sh
