@@ -1,6 +1,8 @@
 {
   "name": "react-serialize",
   "version": "0.0.1",
+  "main": "lib",
+  "module": "src",
   "scripts": {
     "build": "babel src -d lib",
     "watch": "babel src -d lib -w"
