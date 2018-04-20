@@ -12,6 +12,7 @@ export function serialize(element) {
       case "_owner":
       case "_store":
       case "ref":
+      case "key":
         return
       default:
         return value
