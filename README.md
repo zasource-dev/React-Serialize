@@ -1,5 +1,5 @@
 <h1 align="center">React serialize</h1>
-<p align="center">Serialize and deserialize React components to JSON</p>
+<p align="center">serialize and deserialize React components to JSON</p>
 
 <table><tr><td>
 
