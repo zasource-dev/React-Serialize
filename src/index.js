@@ -15,12 +15,12 @@ export function serialize(element) {
   return JSON.stringify(element, replacer)
 }
 
-export function deserialize(data, opt) {
+export function deserialize(data, options) {
   if (typeof data === "string") {
     data = JSON.parse(data)
   }
   if (typeof data === "object") {
-    return deserializeElement(data, opt)
+    return deserializeElement(data, options)
   }
   throw new Error("Deserialization error: incorrect data type")
 }
