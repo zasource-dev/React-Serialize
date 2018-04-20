@@ -35,7 +35,7 @@ deserialize({
 ## Install
 
 ```sh
-npm i pravdomil/react-serialize
+npm i react-serialize
 ```
 
 ## Example
