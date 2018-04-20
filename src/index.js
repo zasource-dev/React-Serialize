@@ -25,8 +25,8 @@ export function deserialize(data, options) {
   throw new Error("Deserialization error: incorrect data type")
 }
 
-function deserializeElement(element, opt = {}, key) {
-  let { components = {}, reviver } = opt
+function deserializeElement(element, options = {}, key) {
+  let { components = {}, reviver } = options
 
   if (typeof element !== "object") {
     return element
@@ -37,7 +37,7 @@ function deserializeElement(element, opt = {}, key) {
   }
 
   if (element instanceof Array) {
-    return element.map((el, i) => deserializeElement(el, opt, i))
+    return element.map((el, i) => deserializeElement(el, options, i))
   }
 
   // Now element has following shape { type: string, props: object }
@@ -51,7 +51,7 @@ function deserializeElement(element, opt = {}, key) {
   type = components[type] || type.toLowerCase()
 
   if (props.children) {
-    props.children = deserializeElement(props.children, opt)
+    props.children = deserializeElement(props.children, options)
   }
 
   if (reviver) {
