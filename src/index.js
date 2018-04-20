@@ -22,7 +22,7 @@ export function deserialize(data, opt) {
   if (typeof data === "object") {
     return deserializeElement(data, opt)
   }
-  throw new Error("Deserialization error")
+  throw new Error("Deserialization error: incorrect data type")
 }
 
 function deserializeElement(element, opt = {}, key) {
@@ -45,7 +45,7 @@ function deserializeElement(element, opt = {}, key) {
   let { type, props } = element
 
   if (typeof type !== "string") {
-    throw new Error("Element type must be string")
+    throw new Error("Deserialization error: element type must be string")
   }
 
   type = components[type] || type.toLowerCase()
