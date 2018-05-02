@@ -2,7 +2,7 @@
   "name": "react-serialize",
   "version": "0.0.6",
   "main": "lib",
-  "module": "src",
+  "esnext": "src",
   "repository": {
     "type": "git",
     "url": "https://github.com/pravdomil/react-serialize.git"
