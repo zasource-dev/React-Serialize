@@ -1,5 +1,10 @@
-<h1 align="center">React serialize</h1>
-<p align="center">serialize and deserialize React components to JSON</p>
+<div align="center">
+
+# React serialize
+
+serialize and deserialize React components to JSON
+
+</div>
 
 <table><tr><td>
 
