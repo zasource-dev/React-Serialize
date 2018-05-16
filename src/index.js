@@ -67,7 +67,7 @@ function deserializeElement(element, options = {}, key) {
   type = components[type] || type.toLowerCase()
 
   if (props.children) {
-    props.children = deserializeElement(props.children, options)
+    props = { ...props, children: deserializeElement(props.children, options) }
   }
 
   if (reviver) {
