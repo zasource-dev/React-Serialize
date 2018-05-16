@@ -1,6 +1,6 @@
 {
   "name": "react-serialize",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "lib",
   "esnext": "src",
   "files": [
