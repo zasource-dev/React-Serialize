@@ -35,7 +35,7 @@ export function deserialize(data, options) {
   if (typeof data === "string") {
     data = JSON.parse(data)
   }
-  if (typeof data === "object") {
+  if (data instanceof Object) {
     return deserializeElement(data, options)
   }
   throw new Error("Deserialization error: incorrect data type")
