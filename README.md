@@ -1,6 +1,6 @@
 <div align="center">
 
-# React serialize
+# React Serialize
 
 serialize and deserialize React components to JSON
 
