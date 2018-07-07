@@ -2,7 +2,7 @@
   "name": "react-serialize",
   "productName": "React Serialize",
   "description": "Serialize and deserialize React components to JSON",
-  "homepage": "https://pravdomil.com/#react",
+  "homepage": "https://pravdomil.com",
   "keywords": [
     "react",
     "serialization"
