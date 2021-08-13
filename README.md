@@ -46,7 +46,3 @@ npm i react-serialize
 ## API
 
 See [src/index.js](src/index.js#L1).
-
-## Donate
-
-[By buying a beer](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BCL2X3AFQBAP2&item_name=react-serialize%20Beer).
