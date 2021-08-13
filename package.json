@@ -15,10 +15,6 @@
     "lib",
     "src"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/pravdomil/react-serialize.git"
-  },
   "scripts": {
     "build": "babel src -d lib",
     "watch": "babel src -d lib -w",
