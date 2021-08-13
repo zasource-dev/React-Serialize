@@ -43,10 +43,6 @@ deserialize({
 npm i react-serialize
 ```
 
-## Example
-
-See [CodeSandbox](https://codesandbox.io/embed/github/pravdomil/react-serialize/tree/master/example?expanddevtools=1).
-
 ## API
 
 See [src/index.js](src/index.js#L1).
