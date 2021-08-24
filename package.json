@@ -6,6 +6,10 @@
     "react",
     "serialization"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zasource-dev/React-Serialize.git"
+  },
   "version": "0.2.0",
   "main": "lib",
   "esnext": "src",
