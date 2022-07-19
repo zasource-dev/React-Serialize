@@ -1,11 +1,5 @@
 import React from "react"
 
-/**
- * Serialize React element to JSON string
- *
- * @param {ReactNode} element
- * @returns {string}
- */
 export function serialize(element) {
   const replacer = (key, value) => {
     switch (key) {
@@ -22,15 +16,6 @@ export function serialize(element) {
   return JSON.stringify(element, replacer)
 }
 
-/**
- * Deserialize JSON string to React element
- *
- * @param {string|object} data
- * @param {object?} options
- * @param {object?} options.components
- * @param {function?} options.reviver
- * @returns {ReactNode}
- */
 export function deserialize(data, options) {
   if (typeof data === "string") {
     data = JSON.parse(data)
