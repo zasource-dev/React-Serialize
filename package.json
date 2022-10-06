@@ -6,7 +6,7 @@
     "react",
     "serialization"
   ],
-  "version": "0.2.0",
+  "version": "0.2.1",
   "main": "lib",
   "esnext": "src",
   "files": [
@@ -27,7 +27,7 @@
     "@babel/preset-react": "^7.0.0-beta.44"
   },
   "peerDependencies": {
-    "react": "^14.0.0"
+    "react": ">14.0.0"
   },
   "license": "MIT"
 }
